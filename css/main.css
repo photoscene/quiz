@@ -1,0 +1,170 @@
+html {
+    height: 100%;
+}
+body {
+    background-color: black;
+    max-height: 100%;
+    background-attachment: fixed;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-image: url('../img/left-side-bg.jpg');
+    height: 100%;
+}
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.col-lg-3 {
+    width: 35%;
+    padding-right: 0px;
+}
+.left-side {
+    max-width: 40%
+}
+.right-side {
+    max-width: 60%;
+    height: 100%;
+    float: right;
+}
+.step-panel {
+    max-width: 100%;
+    min-height: 12%;
+}
+.step {
+    position: relative;
+    width: 20%;
+    background-color: #4b4b4b;
+    float: right;
+    border-right: 2px solid black;
+    border-bottom: 1px solid black;
+}
+.step:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+.question {
+    position: relative;
+    width: 65%;
+    background-color: #ff476a;
+    float: right;
+    padding: 30px 50px;
+}
+.question:before {
+    content: "";
+    display: block;
+    padding-top: 26%;
+}
+.question-panel {}
+.options-panel {}
+.options {
+    position: relative;
+    width: 22%;
+    background-color: #00a4cd;
+    float: right;
+    border-right: 2px solid black;
+    border-top: 1px solid black;
+    /*border: 1px solid black;*/
+}
+.options:before {
+    content: "";
+    display: block;
+    padding-top: 78%;
+}
+.level-eq {
+    float: right;
+    max-width: 61px;
+    padding-top: 20%;
+}
+.answer-panel {
+    height: 38%;
+}
+.answer {
+    background-image: url('../img/eq.jpg');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 86%;
+    float: right;
+}
+.answer:before {
+    content: "";
+    display: block;
+    padding-top: 40%;
+}
+
+/* ========= TYPOGRAPHY ================ */
+@font-face {
+    font-family: Proxima-bold;
+    src: url("../fonts/Proxima Nova Alt Bold.otf");
+    font-weight:400;
+}
+@font-face {
+    font-family: Proxima-regular;
+    src: url("../fonts/Proxima Nova Alt Regular.otf");
+    font-weight:400;
+}
+h1 {
+    font-family: Proxima-bold;
+    font-size: 2.8em;
+    color: white;
+    text-align: right;
+    margin-top: -5px;
+    margin-right: 3px;
+}
+.step p {
+    font-family: Proxima-bold;
+    font-size: 6.5em;
+    color: white;
+    position:  absolute;
+    top: -8px;
+    left: 30px;
+    bottom: 0;
+    right: 0;
+}
+.question p {
+    font-family: Proxima-bold;
+    font-size: 3em;
+    color: #FFF;
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    text-align: center;
+    right: 0px;
+}
+.options p {
+    font-family: Proxima-bold;
+    font-size: 3em;
+    color: #FFF;
+    position: absolute;
+    top: 45px;
+    left: 0px;
+    text-align: center;
+    right: 0px;
+    line-height: 1.1em;
+}
+.answer h2 {
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    text-align: center;
+    right: 0px;
+    font-family: Proxima-bold;
+    font-size: 4em;
+    color: white;
+}
+.answer p {
+    font-family: Proxima-regular;
+    font-size: 3em;
+    color: #FFF;
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    text-align: center;
+    right: 0px;
+}
