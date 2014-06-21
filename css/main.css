@@ -43,6 +43,14 @@ body {
     border-right: 2px solid black;
     border-bottom: 1px solid black;
 }
+.step-active {
+    position: relative;
+    width: 20%;
+    background-color: #ff476a;
+    float: right;
+    border-right: 2px solid black;
+    border-bottom: 1px solid black;
+}
 .step:before {
     content: "";
     display: block;
@@ -76,6 +84,13 @@ body {
     display: block;
     padding-top: 78%;
 }
+.options:hover {
+    background-color: #ff476a;
+    cursor: pointer;
+}
+.selected {
+    background-color: #ff476a;
+}
 .level-eq {
     float: right;
     max-width: 61px;
@@ -96,6 +111,21 @@ body {
     content: "";
     display: block;
     padding-top: 40%;
+}
+.next-button {
+    max-width: 300px;
+    height: 60px;
+    background-color: #ff476a;
+    font-family: Proxima-regular;
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    line-height: 65px;
+    position: relative;
+    bottom: 160px;
+    left: 300px;
+    display: none;
+    cursor: pointer;
 }
 
 /* ========= TYPOGRAPHY ================ */
@@ -155,7 +185,7 @@ h1 {
     text-align: center;
     right: 0px;
     font-family: Proxima-bold;
-    font-size: 4em;
+    font-size: 3.5em;
     color: white;
 }
 .answer p {
