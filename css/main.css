@@ -96,6 +96,10 @@ body {
     max-width: 61px;
     padding-top: 20%;
 }
+#eq1, #eq2, #eq3, #eq4 {
+    display: none;
+}
+.eq {}
 .answer-panel {
     height: 38%;
 }
@@ -124,7 +128,6 @@ body {
     position: relative;
     bottom: 160px;
     left: 300px;
-    display: none;
     cursor: pointer;
 }
 
