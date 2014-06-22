@@ -93,7 +93,12 @@ body {
 }
 .level-eq {
     float: right;
-    max-width: 61px;
+    max-width: 58px;
+    padding-top: 20%;
+}
+.level-eq2 {
+    float: right;
+    max-width: 58px;
     padding-top: 20%;
 }
 #eq1, #eq2, #eq3, #eq4 {
@@ -104,17 +109,21 @@ body {
     height: 38%;
 }
 .answer {
-    background-image: url('../img/eq.jpg');
+    background-image: url('../img/eq.png');
     background-position: bottom right;
     background-repeat: no-repeat;
     position: relative;
     width: 86%;
     float: right;
+    width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0px;
 }
 .answer:before {
     content: "";
     display: block;
-    padding-top: 40%;
+    padding-top: 5%;
 }
 .next-button {
     max-width: 300px;
@@ -127,7 +136,7 @@ body {
     line-height: 65px;
     position: relative;
     bottom: 160px;
-    left: 300px;
+    left: 1225px;
     cursor: pointer;
 }
 
@@ -183,8 +192,8 @@ h1 {
 }
 .answer h2 {
     position: absolute;
-    top: 35px;
-    left: 0px;
+    top: -190px;
+    left: 903px;
     text-align: center;
     right: 0px;
     font-family: Proxima-bold;
