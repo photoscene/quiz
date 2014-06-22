@@ -127,7 +127,7 @@
     .next-button {
         
         left: 0px;
-        bottom: 170px;
+        bottom: 85px;
     }
     .step {
         width: 15%;
@@ -176,7 +176,7 @@
     .answer h2 {
         font-size: 4em;
         left: -7px;
-        top: 120px;
+        top: 170px;
     }
     .options p {
         font-size: 2.5em;
@@ -185,5 +185,10 @@
     .question p {
         top: 82px;
         font-size: 3em;
+    }
+    .step p {
+        font-size: 7em;
+        top: -11px;
+        left: 26px;
     }
 }

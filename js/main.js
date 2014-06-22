@@ -9,8 +9,8 @@ function Q(question, answers, ga_index) {
     };
     this.toDOM = function() {
         $('.question').html("<p>" + this.question + "</p>");
-        $('.options-panel').html('');
-        $('h2').html('');
+        $('.options-panel').html(''); //clears the content
+        $('h2').html(''); //clears the content
         //$('.next-button').hide();
         for (var i = 0; i < this.answers.length; i++) { //prints the answers and puts them in .options
             $('.options-panel').append('<div class="options"><p>' + this.answers[i] + '</p></div>');
