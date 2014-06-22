@@ -80,7 +80,7 @@
     }
     .options p {
         font-size: 1.6em;
-        top: 73px;
+        top: 45px;
     }
     .answer h2 {
         font-size: 3em;
@@ -107,6 +107,7 @@
         float: none;
         margin-right: auto;
         margin-left: auto;
+        bottom: 95px;
     }
 }
 @media (max-width: 768px) {
