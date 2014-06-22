@@ -65,16 +65,18 @@
         line-height: 1.2em;
     }
     h1 {
-        font-size: 2.5em;
+        font-size: 2em;
         margin-top: -7px;
     }
     .level-eq {
-        max-width: 30px;
-        padding-top: 15%;
+        max-width: 36px;
+        padding-top: 22%;
+        bottom: -27px;
     }
     .level-eq2 {
-        max-width: 30px;
-        padding-top: 15%;
+        max-width: 36px;
+        padding-top: 22%;
+        bottom: -27px;
     }
     .options p {
         font-size: 1.6em;
@@ -82,7 +84,8 @@
     }
     .answer h2 {
         font-size: 3em;
-        left: -360px;
+        left: 480px;
+        top: 30px;
     }
     .options:before {
         padding-top: 170%;
@@ -100,7 +103,10 @@
     }
     .next-button {
         max-width: 200px;
-        left: 210px;
+        left: 241px;
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
 @media (max-width: 768px) {
@@ -118,7 +124,8 @@
         padding-right: -15px;
     }
     .next-button {
-        left: 270px;
+        
+        left: 0px;
         bottom: 170px;
     }
     .step {
@@ -143,12 +150,12 @@
     .level-eq {
         padding-top: 0;
         max-width: 44px;
-        padding-top: 49%;
+        padding-top: 39%;
     }
     .level-eq2 {
         padding-top: 0;
         max-width: 44px;
-        padding-top: 49%;
+        padding-top: 39%;
     }
     h1 {
         margin-top: -5px;
