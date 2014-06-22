@@ -16,7 +16,7 @@ body {
 }
 .row {
     margin: 0;
-    padding: 0;
+    padding: 0; 
 }
 
 .col-lg-3 {
@@ -34,6 +34,7 @@ body {
 .step-panel {
     max-width: 100%;
     min-height: 12%;
+    z-index: 1;
 }
 .step {
     position: relative;
@@ -139,6 +140,27 @@ body {
     left: 1225px;
     cursor: pointer;
 }
+.evaluate-window {
+    width: 100%;
+    background-color: #ff476a;
+    border: 40px white solid;
+    height:100vh;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    display: none;
+}
+.left {
+    float: right;
+    width: 50%;
+}
+.right {
+    float: left;
+    width: 50%;
+}
 
 /* ========= TYPOGRAPHY ================ */
 @font-face {
@@ -210,3 +232,11 @@ h1 {
     text-align: center;
     right: 0px;
 }
+h3 {
+    font-size: 5em;
+    color: white;
+    font-family: Proxima-bold;
+    position: absolute;
+    right: 100px;
+    top: 35%
+

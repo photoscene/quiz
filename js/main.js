@@ -48,7 +48,7 @@ $(document).ready(function() {
             nextQuestion = questions[currentQuestionId];
             nextQuestion.toDOM();
         } else {
-            alert('No more questions left!');
+            $('.evaluate-window').fadeIn(300);
         }
         clickAnswer();
         indicateStep();
@@ -59,8 +59,6 @@ $(document).ready(function() {
                 $('.level-eq').first().removeClass('level-eq').addClass('level-eq2').fadeIn(300);
             }
             var appending_text = '<h2> Your answer is ' + correctness + '!<br>';
-            //I noticed you show pretty the same string here regardless of correctness.
-            //why not to incapsulate it in your `q` objects so they just return that string?
             $('.answer').append(appending_text);
         });
     });
