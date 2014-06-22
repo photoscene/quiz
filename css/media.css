@@ -66,7 +66,7 @@
     }
     h1 {
         font-size: 2em;
-        margin-top: -7px;
+        margin-top: -5px;
     }
     .level-eq {
         max-width: 36px;
@@ -88,7 +88,7 @@
         top: 30px;
     }
     .options:before {
-        padding-top: 170%;
+        padding-top: 100%;
     }
     .question:before {
         padding-top: 35%;
